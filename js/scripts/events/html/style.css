@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn-primary {
+  background-color: orange;
+  color: #333;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  margin: 50px;
+  cursor: pointer;
+}
+
+.btn-2 {
+  background-color: red;
+  color: #fff;
+}
+
+.btn-3 {
+  background-color: purple;
+  color: #fff;
+}
+.btn-link {
+  padding: 10px 20px;
+  display: block;
+  width: 100%;
+}
