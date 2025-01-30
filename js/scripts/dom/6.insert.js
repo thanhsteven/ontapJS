@@ -17,3 +17,7 @@ h3.insertAdjacentElement("beforeend", strong);
 // * 3. insertAjdacentHTML
 const template = `<ul><li>item 1</li><li>item 2</li><li>item 3</li></ul>`;
 document.body.insertAdjacentHTML("afterbegin", template);
+
+// * 4. insertBefore
+const ul = document.querySelector("ul");
+console.log(ul);
