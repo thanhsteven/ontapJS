@@ -1,8 +1,8 @@
 // * 1 getAttribute("attribute")
-// - attribute : thuộc tính 
+// - attribute : thuộc tính
 // - Lấy attribute của node
 
-const link = document.querySelector(".link")
+const link = document.querySelector(".link");
 if (link) {
   console.log(link.getAttribute("href"));
 }
@@ -20,9 +20,9 @@ if (liNodes) {
 // - gán attribute cho node
 link.setAttribute("target", "_blank");
 
-liNodes.forEach(function(item) {
+liNodes.forEach(function (item) {
   item.setAttribute("class", "item-list");
-})
+});
 
 // * 3 removeAttribute("attribute")
 // - Xóa attribute của node
