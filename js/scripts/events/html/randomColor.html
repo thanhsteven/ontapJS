@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Color</title>
+  <style>
+    .btn-color {
+      display: block;
+      background-color: orange;
+      border: none;
+      outline: none;
+      padding: 15px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+      margin: 30px auto;
+      cursor: pointer;
+      opacity: 1;
+    }
+    .btn-color:hover {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <button class="btn-color">Changing Color</button>
+  <script>
+    const button = document.querySelector(".btn-color");
+    button.addEventListener("click", handleChangColor);
+    const colors = ["#F28D35","#1E88E5","#C2185B","#43A047","#7B1FA2","#FDD835","#E53935","#8E24AA","#00ACC1","#FF7043"];
+    function handleChangColor() {
+      let color = colors[Math.floor(Math.random() * colors.length)];
+      document.body.style.backgroundColor = color;
+    }
+  </script>
+</body>
+
+</html>
