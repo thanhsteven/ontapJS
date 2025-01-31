@@ -4,7 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sự kiện Click</title>
-  <link rel="stylesheet" href="./style.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .btn-primary {
+      background-color: orange;
+      color: #333;
+      font-weight: 600;
+      border-radius: 4px;
+      padding: 10px 20px;
+      outline: none;
+      border: none;
+      margin: 50px;
+      cursor: pointer;
+    }
+    .btn-2 {
+      background-color: red;
+      color: #fff;
+    }
+    .btn-3 {
+      background-color: purple;
+      color: #fff;
+    }
+    .btn-link {
+      padding: 10px 20px;
+      display: block;
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
   <button class="btn-primary btn-1">Button 1</button>
@@ -14,7 +44,6 @@
   <button class="btn-primary btn-3">
     <span>Button 3</span>
   </button>
-
   <div class="btn-primary">
     <a href="http://isoglass.com.vn" class="btn-link">Click link</a>
   </div>
